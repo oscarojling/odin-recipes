@@ -1,0 +1,53 @@
+html, body {
+height: 100px;
+}
+
+.page{
+  background:#E8DB62;
+  background:linear-gradient(135deg, #E8DB62, #F7F6A5);
+  font-family: 'Prompt', sans-serif;
+}
+
+.homepage {
+  font-size: 100px;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
+.title {
+  font-size: 100px;
+  position: absolute;
+  top: 80px;
+  left: 140px;
+}
+
+  a img {
+    border: none;
+    display: block;
+    margin: 100px auto;
+  }
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+}
+
+h2, h3, p {
+  text-align: center;
+}
+
+.photo-adjustment {
+  display: block;
+  height:auto;
+  width: 800px;
+  margin: 0 auto;
+}
+
+ul, ol {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  list-style-position: inside;
+  padding: 0%;
+}
